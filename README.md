@@ -4,14 +4,30 @@ This is a simple program that will printout the hello message upon call and term
 
 ## Installation
 
-In order to mmake it run you need to download this script: https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+In order to make it run you need to download this script: https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
 
 Place it under the ~/bin and add execution rights, then simply execute by typing ./lein
+
 ## Usage
 
-FIXME: explanation
+Upon succesfull installation of lien you shhould be able to execute the following:
+	
+```lein do test,, uberjar, pom```
 
-    $ java -jar hello-0.1.0-standalone.jar [args]
+to build a program.
+
+Once build, under the ${GIT_PATH}/hello/target/uberjar your artiffacts will be built.
+
+In order to run the artiffact simply  execute:
+
+``` java -jar target/{artifactid}-{version}-standalone.jar```
+
+The output of the  program shall be:
+
+```
+Hello world!
+```
+
 
 ## Options
 
