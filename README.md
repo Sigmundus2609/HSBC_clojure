@@ -12,7 +12,7 @@ Place it under the ~/bin and add execution rights, then simply execute by typing
 
 Upon succesfull installation of lien you shhould be able to execute the following:
 	
-```lein do test,, uberjar, pom```
+```lein do test, uberjar, pom```
 
 to build a program.
 
@@ -25,24 +25,24 @@ In order to run the artiffact simply  execute:
 The output of the  program shall be:
 
 ```
-Hello world!
+Hello, world!
 ```
 
 
-## Options
-
-FIXME: listing of options this app accepts.
 
 ## Examples
 
-...
+Example of running program:
 
+```
+/home/Sigmundus2609/clojure/hello/target/uberjar
+[Sigmundus2609@pc-3 uberjar]$ java -jar hello-0.1.0-SNAPSHOT-standalone.jar 
+Hello, World!
+```
 ### Bugs
 
 ...
 
-### Any Other Sections
-### That You Think
 ### Might be Useful
 
 ## License
